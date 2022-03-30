@@ -1,0 +1,25 @@
+[{
+        "url": "img/food-vegetables/beans-haricot.jpg",
+        "name": "Beans",
+        "price": 50,
+        "qty": "500 gms"
+    },
+    {
+        "url": "img/food-vegetables/capsicum.jpg",
+        "name": "Capsicum",
+        "price": 150,
+        "qty": "100 gms"
+    },
+    {
+        "url": "img/food-vegetables/carrot.jpg",
+        "name": "Carrot",
+        "price": 250,
+        "qty": "1 Kg"
+    },
+    {
+        "url": "img/food-vegetables/ladies-finger.jpg",
+        "name": "Ladies Finger",
+        "price": 20,
+        "qty": "500 gms"
+    }
+]

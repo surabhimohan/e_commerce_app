@@ -1,0 +1,71 @@
+<!-- <script>
+    let data = [{
+            "url": "img/food-vegetables/beans-haricot.jpg",
+            "name": "Beans",
+            "price": 50,
+            "qty": "500 gms"
+        }, {
+            "url": "img/food-vegetables/capsicum.jpg",
+            "name": "Capsicum",
+            "price": 150,
+            "qty": "100 gms"
+        }, {
+            "url": "img/food-vegetables/carrot.jpg",
+            "name": "Carrot",
+            "price": 250,
+            "qty": "1 Kg"
+        }, {
+            "url": "img/food-vegetables/ladies-finger.jpg",
+            "name": "Ladies Finger",
+            "price": 20,
+            "qty": "500 gms"
+        },
+        "Surabhi Mohan",
+        25,
+        true, ["Rahul", 30, "Male"]
+    ]
+
+    for (i = 0; i < data.length; i++) {
+        console.log(i, data[i])
+    }
+</script> -->
+<!-- (i,j) = 1,19     3,17     5,15     7,13    9,11    11,9    13,7    15,5    17,3    19,1 -->
+<script>
+    let s = "<span style='font-size:20px'>*<span>"
+    for (i = 1; i < 20; i += 2) {
+        let j = 20 - i;
+        document.write("&nbsp;".repeat(j));
+        document.write("\/");
+        document.write(s.repeat(i));
+        document.write("\\");
+        document.write(s.repeat(20));
+        document.write("<br>");
+    }
+    for (i = 0; i < 3; i++) {
+        document.write("|");
+        document.write(s.repeat(20));
+        document.write("|");
+        document.write(s.repeat(20));
+        document.write("<br>");
+    }
+    for (i = 0; i < 5; i++) {
+        document.write("|");
+        document.write(s.repeat(7));
+        document.write("&nbsp;".repeat(12));
+        document.write(s.repeat(7));
+        document.write("|");
+        document.write(s.repeat(20));
+        document.write("<br>")
+    }
+    document.write("|");
+    document.write("<u>*</u>".repeat(20));
+    document.write("|");
+    document.write("<u>*</u>".repeat(20));
+    document.write("<br>");
+    for (i = 3; i <= 7; i += 2) {
+        let j = 20 - i;
+        document.write("&nbsp;".repeat(j));
+        document.write(s.repeat(i));
+        document.write("<br>");
+    }
+</script>
